@@ -9,4 +9,7 @@ public class Parcela {
         this.cultivos = new SimpleLinkedListCultivos();  // Cada parcela tiene su propia lista de cultivos
         this.siguiente = null;
     }
+
+
+
 }

@@ -21,6 +21,9 @@ public class SimpleLinkedListCultivos {
             actual.siguiente = nuevoNodo;
         }
     }
+    public NodoCultivo getCabeza() {
+        return cabeza;
+    }
 
     // Método para imprimir los cultivos en la parcela
     public void imprimirCultivos() {

@@ -36,14 +36,5 @@ public class CofreController {
             jsonFile.createNewFile();
         }
     }
-    //Arreglar esto
-  //  public void addCultivo(Cultivo cultivo) throws CultivoException {
-    //    SimulacionEstaciones simulacion = new SimulacionEstaciones();
-      //  String estacionActual = simulacion.obtenerEstacionActual();
-        //if (!cultivo.getEstacion().equalsIgnoreCase(estacionActual)) {
-          //  throw new CultivoException("El cultivo no corresponde a la estación actual: " + estacionActual);
-        //}
-        //SimpleLinkedListCultivos.agregarCultivo(cultivo);
-   // }
 
 }
